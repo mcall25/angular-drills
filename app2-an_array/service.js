@@ -104,10 +104,9 @@ var myData = [
 
 
 
+angular.module('app2').service('service', function() {
+
+this.dataOnService = myData;
 
 
-
-
-
-
-
+})
